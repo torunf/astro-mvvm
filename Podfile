@@ -16,8 +16,4 @@ target 'astro' do
     # Pods for testing
   end
 
-  target 'astroUITests' do
-    # Pods for testing
-  end
-
 end
