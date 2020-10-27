@@ -31,7 +31,6 @@ final class AstroFilterViewController: FormViewController {
             cell.datePicker.locale = Locale(identifier: "tr")
         })
         
-
         return view
     }()
     

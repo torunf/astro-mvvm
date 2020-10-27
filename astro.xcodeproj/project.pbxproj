@@ -20,7 +20,6 @@
 		CF288CA525485B3A0091F8FA /* AstrologyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF288CA425485B3A0091F8FA /* AstrologyApi.swift */; };
 		CF288CAB254860E30091F8FA /* AstroDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF288CAA254860E30091F8FA /* AstroDetail.swift */; };
 		CFD2C72B254812A200BB1703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2C72A254812A200BB1703 /* AppDelegate.swift */; };
-		CFD2C72D254812A200BB1703 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2C72C254812A200BB1703 /* SceneDelegate.swift */; };
 		CFD2C734254812A300BB1703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD2C733254812A300BB1703 /* Assets.xcassets */; };
 		CFD2C737254812A300BB1703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD2C735254812A300BB1703 /* LaunchScreen.storyboard */; };
 		CFD2C742254812A400BB1703 /* astroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2C741254812A400BB1703 /* astroTests.swift */; };
@@ -62,7 +61,6 @@
 		CF288CAA254860E30091F8FA /* AstroDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDetail.swift; sourceTree = "<group>"; };
 		CFD2C727254812A200BB1703 /* astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD2C72A254812A200BB1703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFD2C72C254812A200BB1703 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFD2C733254812A300BB1703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD2C736254812A300BB1703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD2C738254812A300BB1703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,7 +188,6 @@
 		CFD2C75D2548138900BB1703 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				CFD2C72C254812A200BB1703 /* SceneDelegate.swift */,
 				CFD2C72A254812A200BB1703 /* AppDelegate.swift */,
 				CFD2C769254814CB00BB1703 /* AppRouter.swift */,
 				CFD2C7952548346B00BB1703 /* AppContainer.swift */,
@@ -448,7 +445,6 @@
 				CF288C9C254844920091F8FA /* LocationRow.swift in Sources */,
 				67990C822548C65C00ADAA39 /* DateHelper.swift in Sources */,
 				CFD2C7722548156500BB1703 /* AstroFilterBuilder.swift in Sources */,
-				CFD2C72D254812A200BB1703 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

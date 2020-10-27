@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public struct AstroDetail: Decodable, Equatable {
     
     public enum CodingKeys: String, CodingKey {
@@ -31,7 +30,6 @@ public struct AstroDetail: Decodable, Equatable {
         case name_alphabet
         case paya
     }
-    
     
     public let ascendant: String
     public let ascendant_lord: String
