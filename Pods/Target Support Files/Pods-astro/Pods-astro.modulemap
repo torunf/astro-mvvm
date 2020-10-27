@@ -1,0 +1,6 @@
+framework module Pods_astro {
+  umbrella header "Pods-astro-umbrella.h"
+
+  export *
+  module * { export * }
+}

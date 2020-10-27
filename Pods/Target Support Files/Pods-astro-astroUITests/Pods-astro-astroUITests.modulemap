@@ -1,0 +1,6 @@
+framework module Pods_astro_astroUITests {
+  umbrella header "Pods-astro-astroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
