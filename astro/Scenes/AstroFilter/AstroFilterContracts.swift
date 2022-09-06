@@ -23,7 +23,7 @@ enum AstroFilterViewRoute {
     case detail(AstroDetailViewModelProtocol)
 }
 
-protocol AstroFilterViewModelDelegate: class {
+protocol AstroFilterViewModelDelegate: AnyObject {
     func handleViewModelOutput(_ output: AstroFilterViewModelOutput)
     func navigate(to route: AstroFilterViewRoute)
 }

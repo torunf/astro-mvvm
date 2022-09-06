@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol AstroDetailViewModelDelegate: class {
+protocol AstroDetailViewModelDelegate: AnyObject {
     func handleViewModelOutput(_ output: AstroDetailViewModelOutput)
     func showDetail(_ presentation: AstroDetail)
 }
